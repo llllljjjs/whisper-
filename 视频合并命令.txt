@@ -1,0 +1,12 @@
+安装命令 
+winget install ffmpeg
+
+
+(for %i in (DJI_*.MP4) do @echo file '%i') > list.txt
+
+ffmpeg -f concat -safe 0 -i C:\list.txt -c copy C:\output.mp4
+
+
+
+一步到位
+cd /d C:\ && (for %i in (DJI_*.MP4) do @echo file '%i') > list.txt && ffmpeg -f concat -safe 0 -i list.txt -c copy output.mp4

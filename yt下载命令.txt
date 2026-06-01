@@ -1,0 +1,24 @@
+这次是下成功的，但是是webm格式
+.\yt-dlp.exe --cookies cookies.txt --js-runtimes node "https://www.youtube.com/watch?v=ta1nidyfmDE"
+
+转换成mp4命令
+ffmpeg -i "D:\yt\1.webm" -c copy "D:\yt\output.mp4"
+
+
+
+这个是MP4格式，但是下载失败。
+.\yt-dlp.exe --cookies cookies.txt -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" "https://www.youtube.com/watch?v=2Gd5jdl36cg"
+
+
+转成144P
+ffmpeg -i input.mp4 -vf "scale=256:144" -c:v libx264 -crf 28 -preset medium -c:a copy output_144p.mp4
+
+
+
+
+.\yt-dlp.exe --cookies cookies.txt --js-runtimes node "https://www.youtube.com/watch?v=jiUgS9i7Hm0"
+
+.\yt-dlp.exe --cookies cookies.txt -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" "https://www.youtube.com/watch?v=jiUgS9i7Hm0"
+
+
+
