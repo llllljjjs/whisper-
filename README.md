@@ -32,3 +32,8 @@ zhuanwenzi.py  #转换单个视频
 
 yt下载命令.txt  #cmd命令，记录一下
 连续下载.py  #这个是下载YouTube视频，输入网址排队，一个下完接着下一个，很好用的。需要yt-dlp.exe，FFmpeg，deno。火狐的cookies下一次一直能用。
+  重装系统之后，存在网址贴上去不下载的问题
+  打开powershell  到目录下安装    irm https://deno.land/install.ps1 | iex
+  安装node.js
+  用火狐下载cookies
+  之后就可以用了
