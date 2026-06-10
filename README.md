@@ -37,3 +37,6 @@ yt下载命令.txt  #cmd命令，记录一下
   安装node.js
   用火狐下载cookies
   之后就可以用了
+
+  py代码不可用继续
+  在powershell运行    irm https://deno.land/install.ps1 | iex
